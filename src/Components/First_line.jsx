@@ -9,15 +9,15 @@ const First_line = () => {
             <div className="first-line d-flex justify-content-center gap-3 align-items-center">
                 <div className="one">
                     <FaTruck />
-                    <span>Free Shipping on all Purchases</span>
+                    <span className='p-3'>Free Shipping on all Purchases</span>
                 </div>
                 <div className="second">
                     <LuCoins />
-                    <span>60 Day Return Policy</span>
+                    <span className='p-3'>60 Day Return Policy</span>
                 </div>
                 <div className="third">
                     <IoMdPhonePortrait />
-                    <span>Subscribe for Special Offers</span>
+                    <span className='p-3'>Subscribe for Special Offers</span>
                 </div>
             </div>
         </div>
